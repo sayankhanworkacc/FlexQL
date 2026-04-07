@@ -2,7 +2,7 @@
 
 ## Repository
 
-> https://github.com/YOUR_USERNAME/FlexQL ← add before submission
+> https://github.com/sayankhanworkacc/FlexQL
 
 ---
 
