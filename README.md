@@ -3,7 +3,7 @@
 A flexible SQL-like in-memory database driver — client-server system implemented entirely in C++17.
 
 > **Design Document:** [DESIGN.md](DESIGN.md)  
-> **Repository:** *(add GitHub link here)*
+> **Repository:** https://github.com/sayankhanworkacc/FlexQL
 
 ---
 
