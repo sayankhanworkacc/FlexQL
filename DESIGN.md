@@ -278,17 +278,3 @@ ROW 2 2:ID1:14:NAME5:Alice\n
 | B+ tree point lookup | O(log n) | ~4 node comparisons |
 | Full table scan | O(n) | RAM bandwidth bound |
 | Hash join build | O(m) | Single pass |
-
-### Unit Tests
-
-All **21/21** benchmark unit tests pass (`./benchmark --unit-test`):
-
-- CREATE TABLE ✓
-- INSERT (4 rows) ✓
-- SELECT * validation (exact row/value match) ✓
-- SELECT specific columns with WHERE = ✓
-- SELECT with WHERE > (filtered rows) ✓
-- Empty result set (no match) ✓
-- INNER JOIN with WHERE (0 matches expected) ✓
-- Invalid column name → FLEXQL_ERROR ✓
-- Missing table → FLEXQL_ERROR ✓
