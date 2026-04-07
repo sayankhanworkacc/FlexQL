@@ -117,10 +117,10 @@ WHERE operators: `=`, `>`, `<`, `>=`, `<=`
 
 ```
 FlexQL/
-├── flexql.h               ← Public C API (do not modify)
-├── flexql.cpp             ← Client library (do not modify)
-├── benchmark_flexql.cpp   ← Benchmark + unit tests (do not modify)
-├── flexql_server.cpp      ← Server implementation (our code)
+├── flexql.h               ← Public C API
+├── flexql.cpp             ← Client library
+├── benchmark_flexql.cpp   ← Benchmark + unit tests
+├── flexql_server.cpp      ← Server implementation
 ├── compile.sh             ← Build script
 ├── DESIGN.md              ← Architecture and design decisions
 └── README.md
