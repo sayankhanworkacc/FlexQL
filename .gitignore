@@ -1,0 +1,6 @@
+server
+benchmark
+*.o
+*.db
+build/
+.DS_Store
